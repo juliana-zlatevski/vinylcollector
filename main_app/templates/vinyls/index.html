@@ -5,16 +5,18 @@ All Vinyls
 {% endblock %}
 
 {% block content %}
-    <h1>Browse Our Current Vinyl Collection Below</h1>
+    <h1>Browse Our Vinyl Collection</h1>
 
-    {% for vinyl in vinyls %}
+{% for vinyl in vinyls %}
   <div class="card">
+  <a href="{% url 'info' vinyl.id %}">
     <div class="card-content">
       <span class="card-title">{{ vinyl.title }}</span>
       <p>Artist: {{ vinyl.artist }}</p>
       <p>Genre: {{ vinyl.genre }}</p>
       <p>Release Year: {{ vinyl.release_year }}</p>
     </div>
+    </a>
   </div>
 {% endfor %}
 
