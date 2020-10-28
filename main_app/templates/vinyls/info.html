@@ -18,6 +18,7 @@ Vinyl Info
         <p>Release Year: {{ vinyl.release_year }}</p>
       </div>
     </div>
+
     <form action="{% url 'add_review' vinyl.id %}" method="post">
     {% csrf_token %}
     {{ review_form.as_p }}
