@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}
++ New Vinyl
+{% endblock %}
+
+{% block content %}
+    
+    <h1>+ new vinyl</h1>
+    <form method="POST">
+    {% csrf_token %}
+    {{ form.as_p }}
+
+    <button id="adding" class='btn pink darken-3' type="submit">+ add</button>
+
+</form>
+
+
+{% endblock %}

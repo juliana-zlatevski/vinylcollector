@@ -2,13 +2,114 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-  }
+    background-color: #191919;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
   
-  main {
+main {
     flex: 1 0 auto;
+}
+  
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.page-footer {
+  display: none;
+  padding: 4px;
+  background-color: transparent;
+  color: #fff;
+}
+
+.custom-nav {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.brand-logo.left {
+  color: #D2F770;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.nav-links {
+  color: #D2F770;
+  font-size: 24px;
+}
+
+.nav-links:hover {
+  background-color: transparent;
+  color: #7FDBFF;
+}
+
+.brand-logo.left:hover {
+  background-color: transparent;
+}
+
+.brand-logo.left:after { 
+  content: 'vinylcollector';
+  background-color: transparent;
+  font-size: 40px;
   }
   
-  footer {
-    padding-top: 0;
-    text-align: right;
-  }
+.brand-logo.left:hover:after{
+  background-color: transparent;
+  letter-spacing: 4px;
+  color: #7FDBFF;
+  content: 'back home';
+}
+
+.hero-header {
+  text-align: center;
+  padding-top: 160px;
+  color: #fff;
+  font-size: 90px;
+}
+
+h1 {
+  line-height: 80%;
+  color: #D2F770;
+}
+
+.hero-link {
+  text-align: center;
+  margin-top: -20px;
+  color: #D0208F;
+  font-size: 40px;
+}
+
+.hero-page-link {
+  color: #D0208F;
+}
+
+.hero-page-link:hover {
+  color: #7FDBFF;
+}
+
+label {
+  font-size: 18px;
+  color: #DDDDDD;
+  text-transform: lowercase;
+  font-family: menlo;
+}
+
+#id_title, #id_artist, #id_genre, #id_release_year {
+  color: #DDDDDD;
+  font-size: 28px;
+  font-family: Menlo;
+}
+
+#adding {
+  text-transform: none;
+}
