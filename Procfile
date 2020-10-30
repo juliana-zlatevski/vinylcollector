@@ -1,0 +1,1 @@
+web: gunicorn vinylcollector_project.wsgi
