@@ -113,3 +113,40 @@ label {
 #adding {
   text-transform: none;
 }
+
+.vinyl-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.vinyl-box {
+  flex: 32%;
+  max-width: 32%;
+  margin: 5px;
+  background-color: #2e2d2d;
+}
+
+.vinyl-box-content {
+  margin-top: 8px;
+  padding-left: 4px;
+  text-align: left;
+  width: 100%;
+  background-color: #2e2d2d;
+  font-family: menlo;
+  color: white;
+  line-height: 95%;
+}
+
+#vinyl-title {
+  font-size: 18px;
+}
+
+.vinyl-artist {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.vinyl-box-content:hover {
+  color: #D0208F;
+}
