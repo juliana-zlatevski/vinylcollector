@@ -125,6 +125,7 @@ label {
   max-width: 32%;
   margin: 5px;
   background-color: #2e2d2d;
+  border-radius: 10px;
 }
 
 .vinyl-box-content {
@@ -133,7 +134,6 @@ label {
   text-align: left;
   width: 100%;
   background-color: #2e2d2d;
-  font-family: menlo;
   color: white;
   line-height: 95%;
 }
@@ -157,4 +157,106 @@ label {
     padding: 3px;
     letter-spacing: -1px;
   }
+}
+
+.card-content {
+  background-color: #2e2d2d;
+  color: white;
+}
+
+#card-content {
+  border-radius: 15px;
+}
+
+.vinyl-card {
+  background-color: #2e2d2d;
+  border-radius: 15px;
+}
+
+.button-box {
+  padding-top: 20px;
+  text-align: center;
+  font-family: menlo;
+}
+
+#thoughts {
+  color: white;
+  font-family: menlo;
+  padding: 10px;
+}
+
+#thoughts:hover {
+  cursor: pointer;
+}
+
+#id_user, #id_comment {
+  color: white;
+  font-family: menlo;
+}
+
+.select-wrapper {
+  background-color: #191919;
+}
+
+.dropdown-content {
+  background-color: #191919;
+}
+
+.select-dropdown {
+  color: #D2F770;
+  font-family: menlo;
+  margin-left: 10px;
+}
+
+.card-panel {
+  background-color: #191919;
+  box-shadow: none;
+  border: 2px solid #4e4d4d;
+  border-radius: 15px;
+  padding: 8px;
+}
+
+.review-header {
+  color: rgb(209, 209, 209);
+  font-size: 24px; 
+  text-align: right;
+}
+
+.review-comment {
+  padding: 10px;
+}
+
+.add-review-form {
+  border: 2px solid #4e4d4d;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.moodboard, .empty-moodboard {
+  color: #D2F770;
+}
+
+.mood-form {
+  display: inline;
+}
+
+.moodbtns {
+  margin: 2px;
+  font-family: menlo;
+  border-radius: 15px;
+  text-transform: lowercase;
+}
+
+.moodbtns:hover {
+  background-color: #D2F770;
+  color: black;
+}
+
+.remove-mood-form {
+  display: inline;
+}
+
+.moodbtns2:hover {
+  background-color: #D0208F;
+  color: black;
 }
