@@ -148,5 +148,13 @@ label {
 }
 
 .vinyl-box-content:hover {
-  color: #D0208F;
+  color: #7FDBFF;
+}
+
+@media screen and (max-width: 800px) {
+  .nav-links {
+    font-size: 16px;
+    padding: 3px;
+    letter-spacing: -1px;
+  }
 }
